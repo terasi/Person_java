@@ -12,6 +12,9 @@ public class Test {
         System.out.println(taro.age);
         System.out.println(taro.phoneNumber);
         System.out.println(taro.address);
+        taro.talk();
+        taro.walk();
+        taro.run();
 
         Person ziro=new Person();
         ziro.name="木村次郎";

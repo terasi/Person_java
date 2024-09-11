@@ -49,6 +49,26 @@ public class Test {
         System.out.println(hiroto.phoneNumber);
         System.out.println(hiroto.address);
 
+        Robot aibo=new Robot();
+        aibo.name="aibo";
+        aibo.talk();
+        aibo.walk();
+        aibo.run();
+
+        Robot asimo=new Robot();
+        asimo.name="asimo";
+        asimo.talk();
+        asimo.walk();
+        asimo.run();
+
+
+        Robot pepper=new Robot();
+        pepper.name="aibo";
+        pepper.talk();
+        pepper.walk();
+        pepper.run();
+
+
     }
 
 }
